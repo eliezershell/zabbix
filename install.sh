@@ -12,3 +12,6 @@ sudo apt install mysql-client -y
 # Instalação do docker
 git clone https://github.com/eliezershell/docker.git
 chmod +x ./docker/instalador_docker.sh; ./docker/instalador_docker.sh
+
+# Subindo os containers
+docker compose up -d
