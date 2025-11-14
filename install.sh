@@ -6,7 +6,7 @@
 
 # Vamos abaixo preparar o ambiente
 
-sudo apt update
+sudo apt update -y
 sudo apt install mysql-client -y
 
 # Instalação do docker
