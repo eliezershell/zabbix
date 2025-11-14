@@ -1,0 +1,11 @@
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: pass.root
+      MYSQL_DATABASE: base.zabbix
+      MYSQL_USER: eliezer
+      MYSQL_PASSWORD: pass.root
+    ports:
+      - "3306:3306"
