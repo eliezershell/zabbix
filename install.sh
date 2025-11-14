@@ -15,3 +15,7 @@ chmod +x ./docker/instalador_docker.sh; ./docker/instalador_docker.sh
 
 # Subindo os containers
 docker compose up -d
+
+#config do banco
+mysql -u root -p -h 127.0.0.1 #logar e sair do banco
+mysql -u root -p -h 127.0.0.1 < init/base-zabbix.sql
