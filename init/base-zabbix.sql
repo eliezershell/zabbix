@@ -1,4 +1,4 @@
-CREATE DATABASE 'base-zabbix';
+CREATE DATABASE basezabbix;
 CREATE USER 'user-zabbix'@'%' IDENTIFIED BY 'pass-zabbix';
 GRANT ALL PRIVILEGES ON base-zabbix.* TO 'user-zabbix'@'%';
 SET GLOBAL log_bin_trust_function_creators = 1;
